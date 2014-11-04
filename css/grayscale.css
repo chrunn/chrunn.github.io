@@ -37,6 +37,10 @@ p {
     text-align: left;
 }
 
+p.centered {
+    text-align: center;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
