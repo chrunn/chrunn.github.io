@@ -24,21 +24,20 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
     text-transform: uppercase;
     color:#222;
 }
 
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
+section {
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
 }
 
 @media(min-width:767px) {
