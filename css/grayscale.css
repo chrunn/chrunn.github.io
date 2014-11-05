@@ -45,6 +45,12 @@ p {
     text-align: center;
 }
 
+img.desaturate { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
