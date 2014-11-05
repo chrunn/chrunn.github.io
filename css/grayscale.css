@@ -30,6 +30,10 @@ h6 {
     color: #fff;
 }
 
+h1, h2, h4 {
+    text-align: left;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
